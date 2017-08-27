@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		08942CBF1F52D631004A3F9C /* Lock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08942CBE1F52D631004A3F9C /* Lock.framework */; };
 		29217F861E3BCEBE0058AAA0 /* A0ThemeReact.m in Sources */ = {isa = PBXBuildFile; fileRef = 29217F851E3BCEBE0058AAA0 /* A0ThemeReact.m */; };
 		5F049A0B1CAE9FCD006F6C05 /* A0LockReactModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F0499FC1CAE9FCD006F6C05 /* A0LockReactModule.m */; };
 		5F049A0D1CAE9FCD006F6C05 /* A0LockReact.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F049A021CAE9FCD006F6C05 /* A0LockReact.m */; };
@@ -30,7 +29,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		08942CBE1F52D631004A3F9C /* Lock.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Lock.framework; path = "/Users/tsury/Repositories/nsknoxta/ios/Pods/../build/Debug-iphoneos/Lock/Lock.framework"; sourceTree = "<absolute>"; };
 		29217F851E3BCEBE0058AAA0 /* A0ThemeReact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = A0ThemeReact.m; sourceTree = "<group>"; };
 		29217F871E3BCECF0058AAA0 /* A0ThemeReact.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = A0ThemeReact.h; sourceTree = "<group>"; };
 		5F0499EE1CAE9F4A006F6C05 /* libA0RNLock.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libA0RNLock.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,27 +52,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08942CBF1F52D631004A3F9C /* Lock.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		08942CBD1F52D631004A3F9C /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				08942CBE1F52D631004A3F9C /* Lock.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		5F0499E51CAE9F4A006F6C05 = {
 			isa = PBXGroup;
 			children = (
 				5F0499FA1CAE9FCD006F6C05 /* A0RNLock */,
 				5F0499EF1CAE9F4A006F6C05 /* Products */,
-				08942CBD1F52D631004A3F9C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -207,7 +195,6 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = $BUILD_DIR/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/Lock;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -251,7 +238,6 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_SEARCH_PATHS = $BUILD_DIR/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/Lock;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
